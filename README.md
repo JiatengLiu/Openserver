@@ -1,6 +1,6 @@
 # Openserver
 本项目仅作为南京邮电大学多元融合感知系统应用技术研究所服务器使用说明
-## [服务器搭建指导书](../Server_Setup_Guide.md)
+## [服务器搭建指导书](Server_Setup_Guide.md)
 ## [校内使用服务器指导书](link2)
 ## [校外使用服务器指导书](link3)
 # 对于使用过程中的问题可以直接new issue。
