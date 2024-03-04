@@ -203,7 +203,7 @@ Error response from daemon: Cannot restart container hf: failed to create task f
 nvidia-container-cli: initialization error: nvml error: driver/library version mismatch: unknown
 ```
 ### 解决办法：保持容器始终出于开启状态。如果需要重启，先去宿主机上查看`nvidia-smi`，驱动正常在重启，否则只能重启服务器。
-### 4、Q：opencv导入报错
+### 6、Q：opencv导入报错
 ### &emsp;&emsp;A： 使用如下方法安装opencv以及opencv-contrib
 ```
 pip uninstall opencv-python opencv-contrib-python
