@@ -6,3 +6,9 @@
 ## [docker镜像配置文件](docker/)
 ## [VSCode远程调试代码](Server_Debug_Guide.md)
 # 对于使用过程中的问题可以直接new issue。
+# TODO
+- 全栈管理
+- 安全管理
+# UPDATE
+- [2024/3/2] VSCode远程调试
+- [2024/3/5] [opencv导入报错问题](Server_Use_Guide_on_Campus.md)
