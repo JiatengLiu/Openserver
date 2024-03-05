@@ -1,4 +1,4 @@
-# 写在前面
+![image](https://github.com/JiatengLiu/Openserver/assets/77832807/49457f50-d98a-4ba0-95e9-bd2ec7bb45f8)# 写在前面
 ## 1、对于所有的操作并没有做严格性限制，所以请严格按照指南进行操作。因个人不当操作导致服务器宕机或配置出现问题，后果自己负责！
 ## 2、对于服务器显卡使用问题。
 ### `单卡`任务**禁止**分布到`多卡`——会影响其他人正常使用。
@@ -188,24 +188,42 @@ docker exec -it <容器名> bash
 docker inspect <容器名>
 ```
 ### 常见问题汇总
-### 1、Q：如何往服务器中传输文件
-### &emsp;&emsp;A： 1> 直接将文件拖至MobaXterm左侧目录栏
-### &emsp;&emsp;&emsp;&emsp;2> `scp local_file     remote_username@remote_ip:remote_folder`
-### 2、Q：如何从服务器中下载文件到本地
-### &emsp;&emsp;A： MobaXterm左侧目录栏对应文件右键`download`
-### 3、Q：服务器权限问题
-### &emsp;&emsp;A： 用户权限组为"docker sudo plugdev gh",容器中权限为"root"，如果存在上传文件显示权限不足错误，这是因为该目录是以容器中的root创建的。使用`chmod -R 777 <folder>`更改目录权限
-### 4、Q：服务器中编辑代码
-### &emsp;&emsp;A： MobaXterm右键文件`Open with ...`选择本地软件。
-### 5、报错信息：
 ```
+1、Q：如何往服务器中传输文件
+A： 1> 直接将文件拖至MobaXterm左侧目录栏
+    2> `scp local_file     remote_username@remote_ip:remote_folder`
+
+2、Q：如何从服务器中下载文件到本地
+A： MobaXterm左侧目录栏对应文件右键`download`
+
+3、Q：服务器权限问题
+   A： 用户权限组为"docker sudo plugdev gh",容器中权限为"root"，如果存在上传文件显示权限不足错误，这是因为该目录是以容器中的root创建的。使用`chmod -R 777 <folder>`更改目录权限
+
+4、Q：服务器中编辑代码
+   A： MobaXterm右键文件`Open with ...`选择本地软件。
+
+5、报错信息：
+`
 Error response from daemon: Cannot restart container hf: failed to create task for container: failed to create shim task: OCI runtime create failed: runc create failed: unable to start container process: error during container init: error running hook #0: error running hook: exit status 1, stdout: , stderr: Auto-detected mode as 'legacy'
 nvidia-container-cli: initialization error: nvml error: driver/library version mismatch: unknown
-```
-### 解决办法：保持容器始终出于开启状态。如果需要重启，先去宿主机上查看`nvidia-smi`，驱动正常在重启，否则只能重启服务器。
-### 6、Q：opencv导入报错
-### &emsp;&emsp;A： 使用如下方法安装opencv以及opencv-contrib
-```
+`
+   A:保持容器始终出于开启状态。如果需要重启，先去宿主机上查看`nvidia-smi`，驱动正常在重启，否则只能重启服务器。
+
+6、Q：opencv导入报错
+   A： 使用如下方法安装opencv以及opencv-contrib
+`
 pip uninstall opencv-python opencv-contrib-python
+`
+`
 pip install opencv-python-headless opencv-contrib-python-headless
-```
+`
+
+7、Q:报错信息
+`
+CondaError: Downloaded bytes did not match Content-Length
+  url: https://conda.anaconda.org/pytorch/linux-64/pytorch-2.2.1-py3.10_cuda11.8_cudnn8.7.0_0.tar.bz2
+  target_path: /opt/conda/pkgs/pytorch-2.2.1-py3.10_cuda11.8_cudnn8.7.0_0.tar.bz2
+  Content-Length: 1636041382
+  downloaded bytes: 305994140
+`
+   A:重新执行安装指令，可能是conda官方的问题。该问题多出现在同时安装torch和torchvision时或第一次安装torch时
