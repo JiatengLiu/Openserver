@@ -1,4 +1,4 @@
-![image](https://github.com/JiatengLiu/Openserver/assets/77832807/49457f50-d98a-4ba0-95e9-bd2ec7bb45f8)# 写在前面
+# 写在前面
 ## 1、对于所有的操作并没有做严格性限制，所以请严格按照指南进行操作。因个人不当操作导致服务器宕机或配置出现问题，后果自己负责！
 ## 2、对于服务器显卡使用问题。
 ### `单卡`任务**禁止**分布到`多卡`——会影响其他人正常使用。
@@ -207,8 +207,10 @@ A： MobaXterm左侧目录栏对应文件右键`download`
 Error response from daemon: Cannot restart container hf: failed to create task for container: failed to create shim task: OCI runtime create failed: runc create failed: unable to start container process: error during container init: error running hook #0: error running hook: exit status 1, stdout: , stderr: Auto-detected mode as 'legacy'
 nvidia-container-cli: initialization error: nvml error: driver/library version mismatch: unknown
 `
-   A:保持容器始终出于开启状态。如果需要重启，先去宿主机上查看`nvidia-smi`，驱动正常在重启，否则只能重启服务器。
-
+   A:是因为显卡内核更新导致版本不一致而报错。
+      ① 在宿主机上使用`nvidia-smi`指令查看宿主机上显卡内核版本是否正常。输出正常即可。一般情况宿主机显卡内核不会更新，已经手动禁止。
+      ② 宿主机正常后，重新启动容器 docker restart <contain_name> 即可。
+      ③ 宿主机驱动输出异常，联系管理员。
 6、Q：opencv导入报错
    A： 使用如下方法安装opencv以及opencv-contrib
 `
