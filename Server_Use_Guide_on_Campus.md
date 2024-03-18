@@ -13,8 +13,8 @@
 ## 一、本地配置SSH
 ### 1、参考[知乎专栏](https://zhuanlan.zhihu.com/p/391373172)在windows中开启SSH服务。
 ### 2、推荐使用[MobaXterm](https://mobaxterm.mobatek.net/download.html)与服务器进行SSH连接。
-### 3、登录过程中IP为：[10.160.72.107] ，端口号为：[420]。用户名为名字首字母缩写，密码为XKL+420+姓名首字母缩写（小写）     
-#### 注：'+'不是密码内容，仅作连接表示。
+### 3、登录过程中IP为：(xx.xxx.xxx.xxx)[jiatliu@163.com] ，端口号为：(xxxxx)[jiatliu@163.com]。用户名：(xxxxx)[jiatliu@163.com]，密码：(xxxxx)[jiatliu@163.com]。
+#### IP地址，端口号，用户名与密码出于安全考虑隐藏，有需要请发邮件联系我。
 #### &emsp;&emsp; 请联系管理员添加用户。
 ### 4、连接成功后，系统自动跳转至个人目录下，同时终端输出像素UI，表示正常登录
 ## 二、创建docker容器
