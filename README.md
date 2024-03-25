@@ -5,7 +5,6 @@
 ## [校外使用服务器指导书](Server_Use_Guide_outside_Campus.md)
 ## [docker镜像配置文件](docker/)
 ## [VSCode远程调试代码](Server_Debug_Guide.md)
-# 对于使用过程中的问题可以直接new issue。
 # TODO
 - 全栈管理
 - 安全管理
