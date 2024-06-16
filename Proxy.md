@@ -29,6 +29,12 @@
    echo -e "\033[31m[INFO] Proxy Disabled\033[0m"
    ```
 3. 若不了解Ubuntu编辑文件指令，可以在jupyterlab中编辑文件。
+``` bash
+touch ~/network_turbo_on
+touch ~/network_turbo_off
+vi ~/network_turbo_on // 键入 i 进入编辑模式，输入上述指令 ESC + shift + Z + Z 保存退出
+vi ~/network_turbo_off // 键入 i 进入编辑模式，输入上述指令 ESC + shift + Z + Z 保存退出
+```
 ### 在终端中使用
 
 1. 请执行以下命令开启系统代理:
