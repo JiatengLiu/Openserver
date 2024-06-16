@@ -28,17 +28,7 @@
    unset NO_PROXY
    echo -e "\033[31m[INFO] Proxy Disabled\033[0m"
    ```
-3. 若不了解Ubuntu编辑文件指令参考如下指令
-   ```shell
-   # 创建文件
-   touch ~/network_turbo_on
-   touch ~/network_turbo_off
-   # vim修改文件
-   vi ~/network_turbo_on
-   vi ~/network_turbo_off
-   # 保存并退出
-   Esc ; Shift + Z + Z
-   ```
+3. 若不了解Ubuntu编辑文件指令，可以在jupyterlab中编辑文件。
 ### 在终端中使用
 
 1. 请执行以下命令开启系统代理:

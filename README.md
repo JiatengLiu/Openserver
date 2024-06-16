@@ -3,7 +3,6 @@
 ## [服务器搭建指导书](Server_Setup_Guide.md)
 ## [< autodl >校内使用服务器指导书](autodl/Server_Use_Guide_on_Campus.md)
 ## [校外使用服务器指导书](Server_Use_Guide_outside_Campus.md)
-## [docker镜像配置文件](docker/)
 ## [VSCode远程调试代码](Server_Debug_Guide.md)
 ## [学术资源加速](Proxy.md)
 # TODO
@@ -12,3 +11,6 @@
 # UPDATE
 - [2024/3/2] VSCode远程调试
 - [2024/3/5] [opencv导入报错问题](Server_Use_Guide_on_Campus.md)
+
+- [2024/6/16] 修正了指导书的部分内容
+
