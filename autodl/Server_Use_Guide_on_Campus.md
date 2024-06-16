@@ -126,6 +126,8 @@
 
 ### 使用JupyterLab / VsCode 等编辑器即可.
 
+### 本指导基于autodl私有云完成，详情请参考[官方文档](https://private.autodl.com/docs/)
+
 ## 附录
 
 This is an LTS program, with additional features to be uploaded later, so please feel free to raise issues and submit pull requests without hesitation.
