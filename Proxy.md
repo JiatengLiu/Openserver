@@ -32,8 +32,8 @@
 ``` bash
 touch ~/network_turbo_on
 touch ~/network_turbo_off
-vi ~/network_turbo_on // 键入 i 进入编辑模式，输入上述指令 ESC + shift + Z + Z 保存退出
-vi ~/network_turbo_off // 键入 i 进入编辑模式，输入上述指令 ESC + shift + Z + Z 保存退出
+vi ~/network_turbo_on // 键入 i 进入编辑模式，输入上述内容， ESC, shift + Z + Z 保存退出
+vi ~/network_turbo_off // 键入 i 进入编辑模式，输入上述内容， ESC, shift + Z + Z 保存退出
 ```
 ### 在终端中使用
 
