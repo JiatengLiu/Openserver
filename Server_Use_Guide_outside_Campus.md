@@ -23,6 +23,6 @@ VPN客户端连接成功后，即可按照校内使用服务器的方式正常�
 
 3. 正确填写申请表，点击提交
 
-<img src="D:\Openserver\vpn\3.png" alt="3" style="zoom:50%;" />
+<img src=".\vpn\3.png" alt="3" style="zoom:50%;" />
 
 4. 等待导师、学院审批，信息办办理后即可开通本科生vpn客户端权限。
