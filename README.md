@@ -5,6 +5,7 @@
 ## [校外使用服务器指导书](Server_Use_Guide_outside_Campus.md)
 ## [VSCode远程调试代码](Server_Debug_Guide.md)
 ## [学术资源加速](Proxy.md)
+## [使用图形界面](Installing_GUI_and_VNCServer/Installing_GUI_and_VNCServer.md)
 
 # UPDATE
 - [2024/3/2] VSCode远程调试
