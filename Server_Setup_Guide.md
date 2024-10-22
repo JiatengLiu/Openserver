@@ -1,1 +1,1 @@
-如果您希望将此项目作为您的服务器管理解决方案，请发送电子邮件至jiatliu@163.com，并抄送至jx753@sina.com。
+If you would like to use this project as your server management solution, please email jiatliu@163.com and CC to jx753@sina.com, jiuchengxie@gmail.com.
