@@ -4,7 +4,7 @@
 
 - 计算节点配置为:
   - 4 * NVIDIA GeForce RTX 3090
-  - 1 * NVIDIA GeForce RTX 4090
+  - 4 * NVIDIA GeForce RTX 4090
 - 存储节点配置为:
   - 2T SAS机械硬盘&6 Raid5阵列
 
