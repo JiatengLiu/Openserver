@@ -1,11 +1,11 @@
 # Openserver
 本项目仅作为南京邮电大学多元融合感知系统应用技术研究所服务器使用说明
-## [服务器搭建指导书](Server_Setup_Guide.md)
-## [校内使用服务器指导书](autodl/Server_Use_Guide_on_Campus.md)
-## [校外使用服务器指导书](Server_Use_Guide_outside_Campus.md)
-## [VSCode远程调试代码](Server_Debug_Guide.md)
-## [学术资源加速](Proxy.md)
-## [使用图形界面](Installing_GUI_and_VNCServer/Installing_GUI_and_VNCServer.md)
+## [README of Setting up the Servers](Server_Setup_Guide.md)
+## [README of Using the Servers](autodl/Server_Use_Guide_on_Campus.md)
+## [README of Campus VPN](Server_Use_Guide_outside_Campus.md)
+## [README of Debugging in VSCode](Server_Debug_Guide.md)
+## [README of Academic Resources VPN](Proxy.md)
+## [README of GUI](Installing_GUI_and_VNCServer/Installing_GUI_and_VNCServer.md)
 
 # UPDATE
 - [2024/3/2] VSCode远程调试
