@@ -104,6 +104,7 @@
 - <font size=3>如果你直接使用conda进行依赖的安装并未出现报错信息并且速度仍可接受，就请不要在使用资源加速了。因为测试时间为 2024-06-16 ，学校正在进行综合评定，我们不确定是否为信号干扰导致网络不稳定。</font>
 - <font size=3>使用conda进行下载时（尤其是较大的依赖包）出现了字符长度不匹配的报错，类似于`condaerror: downloaded bytes did not match content-length`，这是因为下载速度慢导致超时使得预期大小和实际大小不一致，请使用如下代码修改超时判断条件。`conda config --set remote_read_timeout_secs 6000.0`</font>
 - <font size=3>请不要更换镜像源，因为国内的镜像源最近都不太稳定，直接走学术资源加速即可（随用随关），我在使用tuna镜像进行pip和conda安装时均出现了错误。</font>
+- <font size=3>强烈建议使用`mamba`替换`conda`使用，安装以及使用mamba参考</font>
 ### 1. [创建autodl账户](https://www.autodl.com/login)，并保存相应的id号.
 
 ### 2. 加入私有云。填写过群中的在线表格 服务器账户名单 即可.
