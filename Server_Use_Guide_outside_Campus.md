@@ -1,22 +1,22 @@
-# 校外使用服务器指南
+# Off-campus server Guide
 
-**由于网络安全原因，目前已经私有云已经关闭了校外VPN访问通道。请在校内使用私有云计算资源。**
+** Due to network security reasons, the private cloud has now closed the off-campus VPN access channel. Please use private cloud computing resources on campus. **
 
-## 附：校外访问校园网内网资源的方法
+## Attached: Access to the campus network resources outside the method
 
-学校禁止私自搭建VPN服务器，请使用我校信息化建设与管理办公室提供的VPN客户端访问校内资源。
+The school prohibits private construction of VPN server, please use the VPN client provided by our school information construction and management office to access campus resources.
 
-具体使用说明请参考信息办提供的说明文档
+For specific instructions, please refer to the documentation provided by the Information Office
 
-[WebVPN客户端 (njupt.edu.cn)](https://xxb.njupt.edu.cn/2021/0514/c9858a193515/page.htm)
+[WebVPN (njupt.edu.cn)](https://xxb.njupt.edu.cn/2021/0514/c9858a193515/page.htm)
 
-VPN客户端连接成功后，即可正常使用校园网资源
+After the VPN client connection is successful, the campus network resources can be used normally
 
-### 注：
+### NOTE：
 
-**本科生需要注意账号权限问题**
+**Undergraduates need to pay attention to the issue of account permissions**
 
-本科生账号默认没有VPN客户端访问权限，请参考以下说明申请使用。
+Undergraduate accounts do not have VPN client access by default, please refer to the following instructions to apply for use.
 
 1. 打开智慧校园，办事大厅（智能填报）。
 
