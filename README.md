@@ -6,7 +6,7 @@
 ## [README of Debugging in VSCode](Server_Debug_Guide.md)
 ## [README of Academic Resources VPN](Proxy.md)
 ## [README of GUI](Installing_GUI_and_VNCServer/Installing_GUI_and_VNCServer.md)
-## [NOTICE](autodl/Remove_Container.md)
+## [NOTICE](autodl/Remove_Containers.md)
 
 # UPDATE
 - [2024/3/2] VSCode远程调试
