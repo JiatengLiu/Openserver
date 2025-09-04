@@ -21,11 +21,18 @@
 
 2.  **新建站点**
     在软件左上角选择 **文件** → **站点管理器** → **新建站点**。
-<img width="1183" height="937" alt="image" src="https://github.com/user-attachments/assets/df76c300-401d-4add-afa3-45f81884e2e4" />
+<img width="592" height="468" alt="image" src="https://github.com/user-attachments/assets/df76c300-401d-4add-afa3-45f81884e2e4" />
 
 3.  **配置 SFTP 连接**
-   
-    从您的服务器/容器实例找到 SSH 登录指令，并按如下方式填写信息。
+
+
+    从您的服务器/容器实例找到 SSH 登录指令并复制，
+    <img width="816" height="145" alt="image" src="https://github.com/user-attachments/assets/8632fb32-05b6-4a26-a459-26bd2ddab395" />
+
+    并按如下方式填写信息。
+    
+
+
 
     > **登录指令示例：** `ssh -p 12216 root@gh229.basic.cn`
 
@@ -34,6 +41,7 @@
     *   **端口(P):** `12216` (指令中`-p`后面的数字)
     *   **用户(U):** `root` (指令中`@`前面的部分)
     *   **密码(W):** (填写您服务器的密码)
+<img width="594" height="452" alt="image" src="https://github.com/user-attachments/assets/336f8b7b-fe1a-49ad-a039-9c47798cfd73" />
 
 
 5.  **连接并传输**
